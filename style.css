@@ -33,19 +33,27 @@ main h5{
     color: #dd3232;
 }
 nav a{
+    color:#000;
+
+}
+nav a:hover{
     color:#777;
 }
+
 nav ul{
     list-style:none;
 }
+
 nav ul li{
     display:inline-flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
+
 nav{
     border-top: 1px solid #777;
     border-bottom: 1px solid #777;
 }
+
 h1{
     text-align: center;
 }
@@ -55,4 +63,8 @@ h1{
     width:330px;
     padding: 5px;
 
+}
+
+img{
+    width:100%;
 }
