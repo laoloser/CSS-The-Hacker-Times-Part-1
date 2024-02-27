@@ -52,6 +52,10 @@ nav ul li{
 nav{
     border-top: 1px solid #777;
     border-bottom: 1px solid #777;
+    position:sticky;
+    top:0px;
+    background-color:white;
+
 }
 
 h1{
@@ -65,6 +69,19 @@ h1{
 
 }
 
+.more-articles2 section{
+    display:inline-block;
+    width:30%;
+    padding: 10px;
+
+}
+
 img{
     width:100%;
+}
+
+footer{
+    text-align:center;
+    margin:20px;
+
 }
